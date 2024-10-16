@@ -1,0 +1,77 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Тип №0. Селектор зірочка (*) - застосовуємо до всіх елементів */
+* {
+  color: #333;
+}
+
+/* Тип №1. Селектор тегу - для всіх елементів h2 та p */
+
+p {
+  color: lightgreen;
+}
+
+h2 {
+  color: red;
+}
+
+hr {
+  border: 1px solid black;
+  width: 100%;
+}
+/* Тип №2. Селектор класу - для всіх елементів з класом .image .summary__title */
+.image {
+  width: 400px;
+  height: 300px;
+}
+
+.summary__title {
+  color: black;
+}
+
+/* Тип №3. Селектор ID - для елемента з ID #important */
+P #important {
+  color: purple;
+}
+
+/* Тип №4.1 Селектор атрибуту - для елементів із класами, що містять 'mo' */
+
+[class*="mo"] {
+  color: teal;
+}
+
+/* Тип №4.2 Селектор атрибуту  - для елементів із тайтлом, що містять 'русняву мову' */
+
+[title*="рус"] {
+  display: none;
+}
+
+/* Комбінація селекторів - всі p з класом .text */
+
+p.text {
+  color: rgb(240, 164, 1);
+}
+
+/* Кілька селекторів одночасно - h2, p та li */
+h3,
+ul,
+li {
+  color: darkred;
+}
+
+/* Вкладеність селекторів - всі li (items) всередині article__conclusions__list */
+
+.article__conclusions-list li {
+  color: orange;
+  text-decoration: underline;
+}
+
+/* Звертаємось до УСІХ тегів span на сторінці 
+	АЛЕ лише тих які знаходяться в середені 
+	будь-якого об'єкту з класом text 
+*/
+
+.text span {
+  color: darkblue;
+}

@@ -1,0 +1,19 @@
+/* Using vscode plugin google fonts */
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,600);
+
+/* From local store */
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Bold/DMSans-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Regular/DMSans-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

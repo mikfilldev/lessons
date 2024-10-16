@@ -1,0 +1,136 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+h1 {
+  font-family: "Arial";
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.article {
+  font-family: "serif";
+  color: #333;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  white-space: normal;
+  font-size: 16px;
+}
+
+.article__header {
+  text-align: center;
+  font-family: "sans-serif";
+  color: #444;
+  text-transform: capitalize;
+}
+
+.article__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.article__subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7rem;
+  font-style: italic;
+  font-weight: 500;
+  color: #666;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  text-decoration: none;
+}
+
+.article__list {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  white-space: nowrap;
+}
+
+.article__list-item {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.article__list-item + li {
+  text-align: center;
+}
+
+.article__list-item + li ~ li {
+  text-align: left;
+}
+
+.article__list-title {
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: #444;
+}
+
+.article__text {
+  font-family: "serif";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.8;
+  letter-spacing: 0.3px;
+  text-align: justify;
+}
+
+.portfolio {
+  font-family: "Work Sans";
+  font-style: normal;
+}
+.portfolio__title {
+  color: var(--Gray-900, #132238);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.portfolio__text {
+  color: var(--Gray-600, #556070);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.landing {
+  font-family: "Roboto";
+}
+.landing__title {
+  color: var(--Colour-Main-Blue-900, #091133);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 66px;
+  letter-spacing: 1px;
+}
+.landing__text {
+  color: var(--Colour-Main-Blue-500, #505f98);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.presentation {
+  font-family: "DM Sans";
+}
+.presentation__title {
+  color: var(--Neutral-Colors-Color-800, #1e1b39);
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 95px;
+}
+.presentation__text {
+  color: var(--Neutral-Colors-Neutral-700, #474464);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+}
